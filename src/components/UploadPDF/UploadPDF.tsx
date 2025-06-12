@@ -60,7 +60,7 @@ const UploadPDF = () => {
   const props: UploadProps = {
     name: "user_file",
     multiple: true,
-    action: `https://ml-backend.nirnayaak.co/upload?licenseID=${licenseID}`,
+    action: `http://localhost:8000/upload?licenseID=${licenseID}`,
     onChange(info) {
       console.log(info);
 
